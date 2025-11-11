@@ -1,0 +1,3085 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.163351,
+          -7.317585
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "AGATS",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.73942,
+          -8.84719
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "AIMERE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.889345,
+          2.68651
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "AJIBATA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.07173,
+          -3.33642
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "AMAHAI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.835158,
+          2.628854
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "AMBARITA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.95671,
+          -4.016335
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "AMOLENGO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.897365,
+          -0.854012
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "AMPANA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.582874,
+          1.189566
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "AMURANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.18645,
+          -0.062
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "ANCAM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.19505,
+          -2.14811
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "AREFI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.83401,
+          -6.04403
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "ATSY",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.46685,
+          -0.72251
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BABANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.42878,
+          -2.623155
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BABO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.24584,
+          -7.0375
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BADE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.26084,
+          -4.54226
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BAJOE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.75338,
+          -5.91261
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BAKAUHENI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8286,
+          -1.27218
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BALIKPAPAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.31826,
+          5.86159
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BALOHAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.51333,
+          -1.69833
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BANGGAI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.7925,
+          -0.56947
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BARDAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.39162,
+          0.77255
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BASTIONG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.81591,
+          2.66804
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BATANG DUA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.03541,
+          -3.42279
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BATULICIN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.39168,
+          -2.0305
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BATURUBE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.67139,
+          -5.46452
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BAUBAU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.65997,
+          -5.81156
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BAWEAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2476,
+          -3.81235
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BENGKULU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.09245,
+          -6.02324
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BENJINA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.782,
+          -0.9135
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BIAK",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.18023,
+          -0.06015
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BINTANG HARAPAN DESA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.4862,
+          -2.00033
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BINTUNI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.45785,
+          -5.61901
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BIRA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.197,
+          1.4429
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BITUNG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.9657,
+          -1.8655
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BOBONG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.05432,
+          -7.22851
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BONERATE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.95759,
+          1.13961
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "BONITON",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.455,
+          -6.829
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "CEREMAI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.56214,
+          -0.49072
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "DABO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.21855,
+          -5.75923
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "DOBO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.225,
+          0.825
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "DOLONG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.7423,
+          -0.07018
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "DONGKALA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.23961,
+          0.17061
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "DOWORA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.23746,
+          -5.87515
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "DULBATAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6558,
+          -8.84752
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "ENDE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.32185,
+          -3.88291
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "FAKFAK",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.63972,
+          -0.42854
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "GAG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.16952,
+          -3.6701
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "GALALA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5786,
+          -4.9571
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "GARONGKONG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.35248,
+          -0.92341
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "GEBE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.0028,
+          -3.8115
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "GETENTIRI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.0645,
+          0.49964
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "GORONTALO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.65691,
+          -7.15391
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "GRESIK",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.60421,
+          1.30605
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "GUNUNG SITOLI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6068,
+          -10.3802
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "HANSISI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4682,
+          -3.73145
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "HUNIMUA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.73045,
+          -7.21816
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "JAMPEA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.66981,
+          -6.58801
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "JEPARA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.56372,
+          -1.53051
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KAILOLO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.51268,
+          -8.20455
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KALABAHI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.72855,
+          -7.42531
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KALAOTOA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1852,
+          0.021
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KALIAM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.47291,
+          -5.02535
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KALOBO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.67385,
+          -7.15421
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KAMAL",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.605,
+          -5.334
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KAMARU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7621,
+          -1.1895
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KARIANGAU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.45505,
+          -5.81161
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KARIMUNJAWA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0425,
+          -4.439
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KASIPUTE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1854,
+          -0.9992
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KASIRUTA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.48835,
+          -8.32451
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KAYANGAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.966,
+          -3.275
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KAYELI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.3101,
+          0.0016
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KAYOA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.796,
+          -7.1065
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KAYUADI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.2038,
+          -6.9038
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KENDAL",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.5851,
+          -3.96105
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KENDARI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.1896,
+          -7.5855
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KETAPANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.706,
+          -8.375
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KIMAAM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.809,
+          -1.1085
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KOFIAU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5791,
+          -4.0538
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KOLAKA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2014,
+          -1.7102
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KOLONODALE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.257,
+          -0.8035
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KUALA TUNGKAL",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.7135,
+          -2.7161
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KUMAI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.435,
+          0.8175
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KUNDUR",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8105,
+          -3.109
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KUPAL",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.5786,
+          -10.15875
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KUPANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.258,
+          -5.7531
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "KUUR",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8502,
+          -6.3768
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LABUAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.86,
+          -8.4725
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LABUAN BAJO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.7701,
+          -3.3765
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LABUHAN HAJI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.956,
+          -3.7635
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LANGARA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.9818,
+          -8.3075
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LARANTUKA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.785,
+          -7.216
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LARAT",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.91,
+          -3.4905
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LASUSUA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.89,
+          -6.551
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LEMALAS",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.40301,
+          -8.716382
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LEMBAR",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.3995,
+          -8.3582
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LEWOLEBA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.048,
+          1.698
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LIKUPANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.11,
+          -8.583
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LOMBOK",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.793,
+          -0.949
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "LUWUK",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.591,
+          0.285
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MAKIAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.751,
+          -1.905
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MANGOLE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.0725,
+          -0.8655
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MANOKWARI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.328,
+          -8.6275
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MARAPOKOT",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.902,
+          0.6125
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MARISA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.433,
+          4.872
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MARORE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.569,
+          -5.184
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MAWASANGKA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.68,
+          4.041
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MELONGUANE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.779,
+          1.258
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MENGKAPAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0028,
+          -5.9405
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MERAK",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.386,
+          -8.502
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MERAUKE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.11,
+          -2.6015
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MOOR",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.3245,
+          2.0505
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MOROTAI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.429,
+          0.449
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MOTI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7725,
+          -6.112
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "MUARA ANGKE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5008,
+          -3.364
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "NABIRE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.847,
+          -3.4215
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "NALAHIA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.078,
+          -3.2215
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "NAMLEA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.664,
+          -10.7485
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "NDAO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.789,
+          -0.9995
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "NUMFOR",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.653,
+          4.1685
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "NUNUKAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.695,
+          -1.411
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "OBI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.358,
+          -6.879
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PACIRAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.354,
+          -0.963
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PADANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.512,
+          -8.541
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PADANGBAI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.458,
+          -0.669
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PAGIMANA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.753,
+          0.065
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PAM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.478,
+          -5.789
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PAMATATA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.518,
+          -3.336
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PANANARU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1825,
+          -0.0645
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PARIT SAREM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.781,
+          -6.758
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PASOKAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.241,
+          0.231
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PATANI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.495,
+          -5.701
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PATTUMBUKANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.782,
+          -1.265
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PENAJAM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.955,
+          1.145
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PENARIK",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.192,
+          -0.071
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PINANG LUAR",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.48835,
+          -8.3245
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "POTOTANO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.325,
+          -5.358
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PULAU ENGGANO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.525,
+          -5.748
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PULAU KELAPA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.598,
+          -5.7725
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PULAU PRAMUKA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.245,
+          0.016
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PULAU TELLO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82,
+          -5.99
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PULAU UNTUNG JAWA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.536,
+          -8.199
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "PURE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.709,
+          -4.835
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "RAHA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.28,
+          -0.055
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "RASAU JAYA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.664,
+          -10.7485
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "ROTE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.225,
+          0.825
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "RUM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.847,
+          -10.49
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SABU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.575,
+          -2.57
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SADAI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.124,
+          -6.551
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SAKETA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.51333,
+          -1.69833
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SALAKAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.962,
+          -2.146
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SANANA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.011,
+          -8.555
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SAPE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.05432,
+          -7.22851
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SARPELE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.805,
+          -6.012
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SAWA ERMA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.756,
+          4.091
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SEBATIK",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.653,
+          4.1685
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SEI MENGGARIS",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.215,
+          -1.89
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SERUI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1841,
+          -0.0012
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SIANTAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.167,
+          -1.549
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SIBERUT",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.783,
+          1.748
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SIBOLGA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.458,
+          -0.669
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SIDANGOLE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.167,
+          -1.549
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SIKAKABALUAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.083,
+          -2.625
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SIKAKAP",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.575,
+          -2.57
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SIKELI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.569,
+          -5.589
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SIOMPU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.975,
+          -3.978
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SIWA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.591,
+          0.709
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SOFIFI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.2335,
+          -0.8935
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SORONG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.093,
+          0.655
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SUBAIM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.112,
+          1.159
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SUNGAI MAYAM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.112,
+          1.145
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SUNGAI NIPAH",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.111,
+          1.155
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SUNGAI SUMPIT",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.723,
+          -7.215
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "SURABAYA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.525,
+          -5.748
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TAAM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.89,
+          -6.551
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TABARFANE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.585,
+          -3.94
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TAIPA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.632,
+          -1.829
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TALIABU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.709,
+          -4.835
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TAMPO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.908,
+          -2.316
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TANJUNG API-API",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.419,
+          0.992
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TANJUNG BALAI KARIMUN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.753,
+          0.065
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TANJUNG HARAPAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.158,
+          -2.062
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TANJUNG KALIAN/MUNTOK",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.453,
+          0.923
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TANJUNG PINANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.96,
+          1.171
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TANJUNG RHU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.782,
+          -1.265
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TANJUNG SERDANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.225,
+          1.082
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TANJUNG UBAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.608,
+          3.321
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TARAKAN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.09245,
+          -6.02324
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TAYANDO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.28,
+          0.8175
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TEBAS KUALA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.28,
+          0.8175
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TEBAS SEBERANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.12,
+          1.0145
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TELAGA PUNGGUR",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.765,
+          -0.191
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TELUK BATANG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.465,
+          0.597
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TELUK DALAM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.955,
+          1.145
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TELUK KALONG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.382,
+          0.803
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TERNATE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.0,
+          1.73
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TOBELO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.605,
+          -5.334
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TOLANDONA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.84,
+          1.05
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TOLI TOLI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.582874,
+          1.189566
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TONDASI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.95671,
+          -4.016335
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TOROBULU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.76,
+          -5.617
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "TUAL",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.723,
+          -7.215
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "UJUNG",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.305,
+          5.56
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "ULEE LHEUE",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.512,
+          -8.541
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "UMEPUTIH",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.95759,
+          1.13961
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "VOLLEY",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.605,
+          -5.334
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAARA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.075,
+          -2.71
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAHAI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.052,
+          -2.261
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAIGAMA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.26,
+          -9.62
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAIKELO",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.078,
+          -3.2215
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAILEY",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.254,
+          -9.645
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAINGAPU",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.966,
+          -3.275
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAIPIRIT",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.63972,
+          -0.42854
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAISAI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32,
+          -0.665
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAKAI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.535,
+          -5.201
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WANCI",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.589,
+          -3.328
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAREN",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.505,
+          -2.72
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WASIOR",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.42878,
+          -2.623155
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WAYOM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.005,
+          0.354
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WEDA",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.4862,
+          -2.00033
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WEJIM",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.475,
+          -2.0305
+        ]
+      },
+      "properties": {
+        "Nama Pelabuhan": "WINDESI",
+        "Altitude (MSL)": 0
+      }
+    }
+  ]
+}
