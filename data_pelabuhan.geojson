@@ -11,6 +11,20 @@
         ]
       },
       "properties": {
+        "Nama Pelabuhan": "JAKARTA PUSAT",
+        "Altitude (MSL)": 0
+      }
+    },
+    {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+      106.8748201,
+      -6.1845293
+    ]
+  },
+      "properties": {
         "Nama Pelabuhan": "AGATS",
         "Altitude (MSL)": 0
       }
