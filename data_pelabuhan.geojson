@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "Nama Pelabuhan": "JAKARTA PUSAT",
+        "Nama Pelabuhan": "AGATS",
         "Altitude (MSL)": 0
       }
     },
@@ -23,9 +23,9 @@
       106.8748201,
       -6.1845293
     ]
-  },
+     },
       "properties": {
-        "Nama Pelabuhan": "AGATS",
+        "Nama Pelabuhan": "JAKARTA PUSAT",
         "Altitude (MSL)": 0
       }
     },
