@@ -9,3 +9,4 @@ folium
 streamlit-folium
 # Untuk menangkap event klik pada grafik Plotly
 streamlit-plotly-events
+openpyxl
