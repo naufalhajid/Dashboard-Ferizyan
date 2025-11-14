@@ -3,7 +3,6 @@ import pandas as pd
 from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
-import streamlit_plotly_events as plotly_events
 import altair as alt
 from streamlit_folium import st_folium
 import folium
@@ -165,7 +164,6 @@ with col_title1:
 with col_title2:
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/ASDP_Logo_2023.png/1199px-ASDP_Logo_2023.png", width=150)
 
-
 # --- UPLOAD FILE ---
 uploaded_file = st.file_uploader(
     "📂 Upload file data Anda",
@@ -281,26 +279,7 @@ if uploaded_file:
         df_filtered = df_cleaned.copy()
         today = pd.Timestamp(datetime.now().date())
         active_filters = []
-        # Tangkap filter dari URL (klik peta)
-        query_params = st.query_params  # st.experimental_get_query_params() untuk Streamlit <1.30
-        filter_lokasi = query_params.get("filter_lokasi", [None])[0]
 
-        if filter_lokasi and 'Lokasi Kerja' in df_cleaned.columns:
-            # Simulasikan filter via sidebar state
-            filter_key = 'filter_Lokasi Kerja'
-            st.session_state['filter_values'][filter_key] = [filter_lokasi]
-            # Opsional: tampilkan notifikasi
-            st.success(f"✅ Filter aktif: **{filter_lokasi}**", icon="📍")
-            # Bersihkan URL agar tidak berantakan
-            st.markdown("""
-            <script>
-            if (window.history.replaceState) {
-                const url = new URL(window.location);
-                url.searchParams.delete('filter_lokasi');
-                window.history.replaceState({}, '', url);
-            }
-            </script>
-            """, unsafe_allow_html=True)
         # --- FILTER TANGGAL ---
         with st.sidebar.expander("📅 **Filter Tanggal Masuk**", expanded=True):
             if 'Tanggal Masuk' in df_cleaned.columns:
@@ -468,120 +447,146 @@ if uploaded_file:
                 active_filters.append(f"{icon} {col_name}: {', '.join(selected_values)}")
                 
         # ========================================
-        # TAB: Peta Lokasi Karyawan — INTERAKTIF (Plotly + plotly_events)
+        # TAB: Peta Lokasi Karyawan
         # ========================================
         with tab_map:
-            # Pastikan kolom lokasi dan jenis tersedia
-            if 'Sub Unit Kerja' not in df_filtered.columns:
-                st.error("❌ Kolom 'Sub Unit Kerja' tidak ditemukan.")
-                st.stop()
 
-            location_col = 'Sub Unit Kerja'
-            jenis_col = 'Jenis' if 'Jenis' in df_filtered.columns else None
+            if 'Lokasi Kerja' in df_filtered.columns or 'Sub Unit Kerja' in df_filtered.columns:
+                location_col = 'Lokasi Kerja' if 'Lokasi Kerja' in df_filtered.columns else 'Sub Unit Kerja'
+                Jenis_col = 'Jenis' if 'Jenis' in df_filtered.columns else None
+                
+                lokasi_counts = df_filtered[location_col].value_counts().reset_index()
+                lokasi_counts.columns = [location_col, 'Jumlah Karyawan']
+                
+                Jenis_counts = df_filtered[Jenis_col].value_counts().reset_index()
+                Jenis_counts.columns = [Jenis_col, 'Jumlah Karyawan']
 
-            # Hitung jumlah per lokasi
-            lokasi_counts = df_filtered[location_col].value_counts().reset_index()
-            lokasi_counts.columns = [location_col, 'Jumlah Karyawan']
-
-            # Hitung breakdown laut/darat (jika kolom Jenis ada)
-            if jenis_col:
-                df_laut = df_filtered[df_filtered[jenis_col].str.contains('Laut', case=False, na=False)]
-                df_darat = df_filtered[df_filtered[jenis_col].str.contains('Darat', case=False, na=False)]
-                laut_counts = df_laut[location_col].value_counts().reindex(lokasi_counts[location_col], fill_value=0)
-                darat_counts = df_darat[location_col].value_counts().reindex(lokasi_counts[location_col], fill_value=0)
-                lokasi_counts['Laut'] = laut_counts.values
-                lokasi_counts['Darat'] = darat_counts.values
-            else:
-                lokasi_counts['Laut'] = 0
-                lokasi_counts['Darat'] = 0
-
-            st.subheader(f"📊 Sebaran Karyawan berdasarkan {location_col}")
-
-            # Statistik ringkas
-            col_stat1, col_stat2, col_stat3 = st.columns(3)
-            with col_stat1:
-                st.metric("Total Lokasi", len(lokasi_counts))
-            with col_stat2:
-                top_loc = lokasi_counts.iloc[0] if not lokasi_counts.empty else None
-                st.metric("Lokasi Terbanyak", top_loc[location_col] if top_loc is not None else "N/A")
-            with col_stat3:
-                st.metric("Jumlah di Lokasi Tersebut", top_loc['Jumlah Karyawan'] if top_loc is not None else 0)
-
-            # === Buat peta interaktif ===
-            try:
-                geojson = requests.get(GEOJSON_URL, timeout=10).json()
-
-                # Plotly Choropleth Map — support klik event!
-                fig = px.choropleth_map(
-                    lokasi_counts,
-                    geojson=geojson,
-                    locations=location_col,
-                    featureidkey="properties.Nama Pelabuhan",
-                    color='Jumlah Karyawan',
-                    color_continuous_scale='Blues',
-                    range_color=(0, lokasi_counts['Jumlah Karyawan'].max()),
-                    hover_name=location_col,
-                    hover_data={
-                        'Jumlah Karyawan': True,
-                        'Laut': True,
-                        'Darat': True,
-                        location_col: False
-                    },
-                    custom_data=[location_col],  # ✅ kunci untuk event klik
-                    zoom=4.8,
-                    center={"lat": -2.5, "lon": 118.0},
-                    map_style="carto-positron",
-                    opacity=0.7,
-                    height=550
+                st.subheader(f"📊 Sebaran Karyawan berdasarkan {location_col}")
+                
+                # Tampilkan statistik
+                col_stat1, col_stat2, col_stat3 = st.columns(3)
+                with col_stat1:
+                    st.metric("Total Lokasi", len(lokasi_counts))
+                with col_stat2:
+                    st.metric("Lokasi Terbanyak", lokasi_counts.iloc[0][location_col] if not lokasi_counts.empty else "N/A")
+                with col_stat3:
+                    st.metric("Jumlah di Lokasi Tersebut", lokasi_counts.iloc[0]['Jumlah Karyawan'] if not lokasi_counts.empty else 0)
+                    
+                    # Buat peta dasar
+                m = folium.Map(
+                    location=[-2.5, 118.0], 
+                    zoom_start=5, 
+                    tiles='OpenStreetMap'
                 )
-
-                fig.update_layout(
-                    margin={"r": 0, "t": 0, "l": 0, "b": 0},
-                    coloraxis_colorbar=dict(
-                        title="Jumlah<br>Karyawan",
-                        thickness=15,
-                        len=0.6,
-                        xanchor="left", x=0.01
-                    )
-                )
-                fig.update_traces(
-                    hovertemplate=(
-                        "<b>%{hovertext}</b><br>"
-                        "👥 Total: %{customdata[1]}<br>"
-                        "🚢 Laut: %{customdata[2]}<br>"
-                        "🏢 Darat: %{customdata[3]}<extra></extra>"
-                    ),
-                    customdata=lokasi_counts[[location_col, 'Jumlah Karyawan', 'Laut', 'Darat']].values
-                )
-
-                # ✅ Tangkap klik
-                clicked = plotly_events(
-                    fig,
-                    click_event=True,
-                    hover_event=False,
-                    select_event=False,
-                    key="map_click"
-                )
-
-                st.plotly_chart(fig, use_container_width=True)
-
-                # ✅ Handle klik → filter lokasi
-                if clicked:
-                    try:
-                        custom = clicked[0].get('customdata', [])
-                        if len(custom) >= 1:
-                            lokasi_terpilih = str(custom[0])
-                            # Update filter session state
-                            filter_key = 'filter_Lokasi Kerja'
-                            st.session_state['filter_values'][filter_key] = [lokasi_terpilih]
-                            st.success(f"✅ Difilter ke: **{lokasi_terpilih}**", icon="📍")
-                            st.rerun()
-                    except Exception as e:
-                        st.warning(f"⚠️ Gagal baca klik peta: {e}")
-
-            except Exception as e:
-                st.error(f"❌ Gagal memuat peta: {e}")
-                st.info("Cek koneksi internet atau validitas GeoJSON.")
+                        
+                        # Coba load GeoJSON
+                with st.spinner("Memuat data peta..."):
+                        try:
+                            response = requests.get(GEOJSON_URL, timeout=10)
+                            if response.status_code == 200:
+                                geojson_data = response.json()
+                                    
+                                # Buat dictionary untuk lookup jumlah karyawan
+                                lokasi_dict = dict(zip(lokasi_counts[location_col], 
+                                lokasi_counts['Jumlah Karyawan']))
+                                    
+                                    # Tambahkan marker untuk setiap feature
+                                if 'features' in geojson_data:
+                                    for feature in geojson_data['features']:
+                                        if 'geometry' in feature and feature['geometry']['type'] == 'Point':
+                                            coords = feature['geometry']['coordinates']
+                                            props = feature.get('properties', {})
+                                            name = props.get('Nama Pelabuhan', 'Unknown')
+                                                
+                                                # Cari jumlah karyawan
+                                            jumlah = lokasi_dict.get(name, 0)
+                                            jenis_laut = df_filtered[
+                                                (df_filtered[location_col] == name) &
+                                                (df_filtered[Jenis_col].str.contains('Laut', case=False, na=False))
+                                            ].shape[0] if Jenis_col else 0
+                                            jenis_darat = df_filtered[
+                                                (df_filtered[location_col] == name) &
+                                                (df_filtered[Jenis_col].str.contains('Darat', case=False, na=False))
+                                            ].shape[0] if Jenis_col else 0
+                                                
+                                                # Tentukan warna marker berdasarkan jumlah
+                                            if jumlah > 50:
+                                                    color = 'red'
+                                                    icon = 'star'
+                                            elif jumlah > 20:
+                                                    color = 'orange'
+                                                    icon = 'info-sign'
+                                            elif jumlah > 0:
+                                                    color = 'blue'
+                                                    icon = 'user'
+                                            else:
+                                                    color = 'gray'
+                                                    icon = 'map-marker'
+                                                
+                                                # Buat popup content
+                                            popup_html = f"""
+                                            <div style="
+                                                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                                min-width: 289px;
+                                                padding: 15px;
+                                                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                                                border-radius: 10px;
+                                                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                                                color: white;
+                                            ">
+                                                <h3 style="
+                                                    margin: 0 0 15px 0;
+                                                    color: white;
+                                                    font-size: 18px;
+                                                    font-weight: bold;
+                                                    border-bottom: 2px solid rgba(255,255,255,0.3);
+                                                    padding-bottom: 10px;
+                                                ">
+                                                    📍 {name}
+                                                </h3>
+                                                
+                                                <div style="
+                                                    background: rgba(255,255,255,0.15);
+                                                    padding: 12px;
+                                                    border-radius: 8px;
+                                                    backdrop-filter: blur(10px);
+                                                ">
+                                                    <div style="margin-bottom: 10px; font-size: 14px;">
+                                                        <span style="font-weight: 600;">👥 Jumlah Karyawan:</span>
+                                                        <span style="
+                                                            float: right;
+                                                            font-weight: bold;
+                                                        ">{jumlah}</span>
+                                                    </div>
+                                                    
+                                                    <div style="margin-bottom: 8px; font-size: 13px;">
+                                                        <span style="font-weight: 600;">🚢 Karyawan Laut:</span>
+                                                        <span style="float: right; font-weight: bold;">{jenis_laut}</span>
+                                                    </div>
+                                                    
+                                                    <div style="font-size: 13px;">
+                                                        <span style="font-weight: 600;">🏢 Karyawan Darat:</span>
+                                                        <span style="float: right; font-weight: bold;">{jenis_darat}</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            """
+                                                
+                                                # Tambahkan marker
+                                            folium.Marker(
+                                                    location=[coords[1], coords[0]],
+                                                    popup=folium.Popup(popup_html, max_width=300),
+                                                    tooltip=f"{name} ({jumlah} karyawan)",
+                                                    icon=folium.Icon(color="red", icon=icon, prefix='glyphicon')
+                                                ).add_to(m)  
+                        except requests.exceptions.RequestException as e:
+                                st.error(f"❌ Error saat mengunduh GeoJSON: {str(e)}")
+                        except Exception as e:
+                                st.error(f"❌ Error saat memproses GeoJSON: {str(e)}")
+                    
+                        st_folium(m, width=None, height=600, returned_objects=[])
+                        
+                        
         # ========================================
         # TAB: DASHBOARD ANALISIS
         # ========================================
@@ -910,10 +915,6 @@ if uploaded_file:
                     mime="text/csv",
                     use_container_width=True
                 )
-            
-            with col_dl2:
-                if st.button("📊 Generate Report", use_container_width=True):
-                    st.info("Fitur laporan akan segera tersedia!")
 
     except Exception as e:
         st.error(f"❗ Terjadi kesalahan saat memproses file:")
