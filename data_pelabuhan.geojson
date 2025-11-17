@@ -1,6 +1,110 @@
 {
   "type": "FeatureCollection",
   "features": [
+{
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "nama": "Banda Aceh",
+        "provinsi": "Aceh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.3333,
+          5.54167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "nama": "Singkil",
+        "provinsi": "Aceh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.6667,
+          2.3333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "nama": "Sibolga",
+        "provinsi": "Sumatera Utara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.7812,
+          1.74016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "nama": "Padang",
+        "provinsi": "Sumatera Barat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3531,
+          -0.9500
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "nama": "Batam",
+        "provinsi": "Kepulauan Riau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0305,
+          1.0456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "nama": "Bangka",
+        "provinsi": "Kepulauan Bangka Belitung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.00,
+          -2.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "nama": "Bakauheni",
+        "provinsi": "Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7544,
+          -5.8694
+        ]
+  },
     {
       "type": "Feature",
       "geometry": {
@@ -15,6 +119,109 @@
         "Altitude (MSL)": 0
       }
     },
+      {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "nama": "Banda Aceh",
+        "provinsi": "Aceh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.3333,
+          5.54167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "nama": "Singkil",
+        "provinsi": "Aceh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.6667,
+          2.3333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "nama": "Sibolga",
+        "provinsi": "Sumatera Utara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.7812,
+          1.74016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "nama": "Padang",
+        "provinsi": "Sumatera Barat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3531,
+          -0.9500
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "nama": "Batam",
+        "provinsi": "Kepulauan Riau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0305,
+          1.0456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "nama": "Bangka",
+        "provinsi": "Kepulauan Bangka Belitung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.00,
+          -2.25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "nama": "Bakauheni",
+        "provinsi": "Lampung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7544,
+          -5.8694
+        ]
     {
     "type": "Feature",
     "geometry": {
