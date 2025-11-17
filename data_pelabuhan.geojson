@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "name": "Lokasi_Pelabuhan_dan_Wilayah_Indonesia_Terintegrasi",
+  "name": "LOKASI_PELABUHAN_DAN_WILAYAH_INDONESIA_TERINTEGRASI",
   "features": [
     {
       "type": "Feature",
       "properties": {
         "id": 1,
-        "Nama Pelabuhan": "Banda Aceh",
+        "Nama Pelabuhan": "BANDA ACEH",
         "provinsi": "Aceh",
         "pulau": "Sumatera",
         "Altitude (MSL)": 0
@@ -23,7 +23,7 @@
       "type": "Feature",
       "properties": {
         "id": 2,
-        "Nama Pelabuhan": "Singkil",
+        "Nama Pelabuhan": "SINGKIL",
         "provinsi": "Aceh",
         "pulau": "Sumatera",
         "Altitude (MSL)": 0
@@ -40,7 +40,7 @@
       "type": "Feature",
       "properties": {
         "id": 3,
-        "Nama Pelabuhan": "Sibolga",
+        "Nama Pelabuhan": "SIBOLGA",
         "provinsi": "Sumatera Utara",
         "pulau": "Sumatera",
         "Altitude (MSL)": 0
@@ -57,7 +57,7 @@
       "type": "Feature",
       "properties": {
         "id": 4,
-        "Nama Pelabuhan": "Padang",
+        "Nama Pelabuhan": "PADANG",
         "provinsi": "Sumatera Barat",
         "pulau": "Sumatera",
         "Altitude (MSL)": 0
@@ -74,7 +74,7 @@
       "type": "Feature",
       "properties": {
         "id": 5,
-        "Nama Pelabuhan": "Batam",
+        "Nama Pelabuhan": "BATAM",
         "provinsi": "Kepulauan Riau",
         "pulau": "Sumatera",
         "Altitude (MSL)": 0
@@ -91,7 +91,7 @@
       "type": "Feature",
       "properties": {
         "id": 6,
-        "Nama Pelabuhan": "Bangka",
+        "Nama Pelabuhan": "BANGKA",
         "provinsi": "Kepulauan Bangka Belitung",
         "pulau": "Sumatera",
         "Altitude (MSL)": 0
@@ -108,7 +108,7 @@
       "type": "Feature",
       "properties": {
         "id": 7,
-        "Nama Pelabuhan": "Bakauheni",
+        "Nama Pelabuhan": "BAKAUHENI",
         "provinsi": "Lampung",
         "pulau": "Sumatera",
         "Altitude (MSL)": 0
