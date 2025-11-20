@@ -1,4 +1,4 @@
-streamlit==1.22
+streamlit
 pandas
 plotly
 altair
@@ -6,6 +6,3 @@ streamlit-folium
 folium
 requests
 git+https://github.com/streamlit/gsheets-connection
-datetime
-re
-time
