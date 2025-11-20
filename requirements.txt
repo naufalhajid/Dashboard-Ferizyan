@@ -5,7 +5,7 @@ altair
 streamlit-folium
 folium
 requests
-streamlit-gsheets
+git+https://github.com/streamlit/gsheets-connection
 datetime
 re
 time
