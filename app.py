@@ -9,7 +9,7 @@ import folium
 import requests
 import re
 import time
-from st_gsheets_connection import GSheetsConnection
+from streamlit_gsheets import GSheetsConnection
 
 GEOJSON_URL = 'https://raw.githubusercontent.com/naufalhajid/Dashboard-Ferizyan/refs/heads/main/data_pelabuhan.geojson'
 GEOJSON_KAB_KEY = 'feature.properties.Nama Pelabuhan'
@@ -1140,4 +1140,5 @@ except Exception as e:
     st.error(f"❗ Terjadi kesalahan saat memproses data:")
     st.exception(e)
     st.info("💡 Tips: Pastikan koneksi internet Anda stabil dan URL Google Sheet serta file `secrets.toml` sudah benar.")
+
 
